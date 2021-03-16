@@ -11,7 +11,7 @@ import ht.buh.pojo.Persone;
 import ht.buh.pojo.CategoryVersion;
 /**
  *
- * @author elaverdu
+ * @author elaverdu@buh.ht
  */
 public interface BuhDao {
       List<Category> listCategories() throws DaoException;
