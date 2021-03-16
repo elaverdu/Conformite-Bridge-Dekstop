@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.logging.Logger;
 /**
  *
- * @author elaverdu
+ * @author elaverdu@buh.ht
  */
 public class JbDao implements BuhDao,Serializable {
         private final static Logger log=Logger.getLogger(JbDao.class.getName());
