@@ -50,22 +50,5 @@ public class DbjServicesSql extends DbServices {
              throw new DbException("Exception from createConnection ".concat(ex.toString()));
          }
     }
-   /* public static void main(String arg[]) {
-        try{
-            DbjServicesSql db=new DbjServicesSql();
-            db.createConnection();
-            db.executeQuery("FBNK.CUSTOMER ORDER BY NAME_1",new String[]{"CUSTOMER_NO,SHORT_NAME,NAME_1"});
-            java.sql.ResultSet rs=(java.sql.ResultSet)db.readNextLine();
-            long i=1;
-             while(rs!=null){
-                 //System.out.println("Record "+i);
-                 log.info(("Row "+i).concat(" ").concat(rs.getString("NAME_1")).concat(" ").concat(rs.getString("SHORT_NAME")));
-                 rs=(java.sql.ResultSet)db.readNextLine();
-                 i++;
-             }
-     
-        }catch(SQLException |DbException ex){
-            log.info(ex.toString());
-        }
-    }*/
+   
 }

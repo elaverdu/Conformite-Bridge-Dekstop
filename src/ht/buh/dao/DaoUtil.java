@@ -8,7 +8,7 @@ package ht.buh.dao;
 
 /**
  *
- * @author elaverdu
+ * @author elaverdu@buh.ht
  */
 public class DaoUtil {
     
