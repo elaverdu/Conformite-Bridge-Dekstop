@@ -22,7 +22,7 @@ import ht.buh.pojo.CategoryVersion;
 //import java.util.Map;
 /**
  *
- * @author elaverdu
+ * @author elaverdu@buh.ht
  */
 public class MsDao implements BuhDao,Serializable {
      private DbmServicesSql dbs;
